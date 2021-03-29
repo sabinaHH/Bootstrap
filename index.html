@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="accordion" id="accordionExample">
-      <div class="card">
+      <div class="card card_1">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button
@@ -61,11 +61,20 @@
             sustainable VHS.
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary btn-next mb-4 mr-2">Next</button>
+            <button
+              class="btn btn-primary btn-next mb-4 mr-2 collapsed"
+              type="button"
+              onclick="expandNextSection(this)"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card card_2">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button
@@ -99,11 +108,19 @@
             sustainable VHS.
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary btn-next mb-4 mr-2">Next</button>
+            <button
+              class="btn btn-primary btn-next mb-4 mr-2"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              onclick="expandNextSection(this)"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card card_3">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button
@@ -137,11 +154,19 @@
             sustainable VHS.
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary btn-next mb-4 mr-2">Next</button>
+            <button
+              class="btn btn-primary btn-next mb-4 mr-2"
+              data-toggle="collapse"
+              data-target="#collapseFour"
+              aria-expanded="true"
+              onclick="expandNextSection(this)"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card card_4">
         <div class="card-header" id="headingFour">
           <h2 class="mb-0">
             <button
@@ -176,7 +201,12 @@
             sustainable VHS.
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary btn-next mb-4 mr-2">Next</button>
+            <button
+              class="btn btn-primary btn-next mb-4 mr-2"
+              onclick="expandNextSection(this)"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>

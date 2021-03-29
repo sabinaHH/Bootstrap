@@ -15,3 +15,22 @@
 .new-border-color {
   border-left: 5px solid #007bff !important;
 }
+
+.fadeOut {
+  -webkit-animation: fadeAnimation 1s;
+}
+
+@-webkit-keyframes fadeAnimation {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+  }
+}
