@@ -1,0 +1,17 @@
+.accordion {
+  width: 70%;
+  margin: auto;
+}
+
+.btn-next {
+  width: 150px;
+}
+
+.card {
+  margin-top: 10px;
+  border-left: 5px solid #e6e6e6 !important;
+}
+
+.new-border-color {
+  border-left: 5px solid #007bff !important;
+}
