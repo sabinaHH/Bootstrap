@@ -12,8 +12,12 @@
   border-left: 5px solid #e6e6e6 !important;
 }
 
-.new-border-color {
+.bs-callout-custom {
   border-left: 5px solid #007bff !important;
+}
+
+.bs-callout-success {
+  border-left: 5px solid #15b797 !important;
 }
 
 .fadeOut {
