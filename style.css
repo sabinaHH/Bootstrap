@@ -1,40 +1,63 @@
-.accordion {
-  width: 70%;
-  margin: auto;
+body {
+  background-color: aliceblue !important;
 }
 
-.btn-next {
-  width: 150px;
+.container {
+  background: cornflowerblue;
+}
+
+.step {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: cyan;
 }
 
 .card {
-  margin-top: 10px;
-  border-left: 5px solid #e6e6e6 !important;
+  margin: auto;
+  border-left: 5px solid blue !important;
 }
 
-.bs-callout-custom {
-  border-left: 5px solid #007bff !important;
+.content {
+  display: none;
+}
+button {
+  margin-top: 30px;
+}
+.back {
+  display: none;
+}
+.next {
+  margin-left: 50px;
+}
+.end {
+  display: none;
 }
 
-.bs-callout-success {
-  border-left: 5px solid #15b797 !important;
+.btn__text-dynamic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+
+  transition: all ease 2s;
 }
 
-.fadeOut {
-  -webkit-animation: fadeAnimation 1s;
+.test1 {
+  transform: translateX(100%);
 }
 
-@-webkit-keyframes fadeAnimation {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  100% {
-    opacity: 0;
-  }
+.line {
+  height: 6px !important;
+}
+
+.background-primary-color {
+  background: purple;
 }
